@@ -51,13 +51,6 @@ Contenido Perfil Con Imagen
 }
 
 
-/* Fuente del titulo */
-.bungee-shade-regular {
-  font-family: "Bungee Shade", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-}
-
 #contenidoPerfil{
     padding-top: 20px;
     padding-bottom: 20px;
@@ -77,7 +70,7 @@ Contenido Perfil Con Imagen
 }
 
 .containerImagen h1{
-    font-family: "Bungee Shade", sans-serif;
+    font-family: "Bungee Inline", sans-serif;
     font-size: 40px;
     color: #ceebfd;
 }
