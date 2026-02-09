@@ -1,0 +1,200 @@
+*{
+    font-family: "Montserrat";
+    font-weight: 500;
+}
+
+
+h2{
+    font-weight: 800;
+}
+
+body{
+    margin: 0;
+    overflow-x: hidden;
+    background-color: #B6DBF2;
+}
+
+header{
+    text-align: center;
+    background-color: aliceblue;
+    color: black;
+    width: 100%;
+    margin: 0;
+    bottom:auto;
+    border: 1px solid;
+    border-color: black;
+}
+
+main{
+    margin-bottom: 10px;
+}
+
+
+/*
+Contenido Perfil Con Imagen
+*/
+
+
+/* Fondo con textura granizada - Frontend Hero */
+#perfil {
+  position: relative;
+  background: #0F172A;
+}
+
+#perfil::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)'/%3E%3C/svg%3E");
+  opacity: 0.06;
+  pointer-events: none;
+}
+
+
+/* Fuente del titulo */
+.bungee-shade-regular {
+  font-family: "Bungee Shade", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+#contenidoPerfil{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.containerImagen{
+    text-align: center;
+}
+
+.containerImagen img{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+    
+}
+
+.containerImagen h1{
+    font-family: "Bungee Shade", sans-serif;
+    font-size: 40px;
+    color: #ceebfd;
+}
+
+.containerImagen h2{
+    font-size: 28px;
+    font-style: bold;
+    color: #B6DBF2;
+}
+
+.sobreMi{
+    margin-top: 40px;
+    max-width: 600px;
+    padding: 20px;
+    border-radius: 10px ;
+    text-align: justify;
+    background-color: aliceblue;
+}
+
+/*
+Las dos columnas
+*/
+
+
+/* Decoración de lineado de los subtitulos */
+.subtitulo {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: white;
+    font-weight: 600;
+}
+
+.subtitulo::before,
+.subtitulo::after {
+    content: "";
+    flex: 1;
+    border-bottom: 2px solid white;
+    margin: 0 15px;
+}
+
+#informacion{
+    margin-top: 10px;
+}
+
+#columnaIzq{
+    background-color: #0F172A;
+    color: #ffffff;
+    padding: 18px;
+    border-radius: 14px;
+    display: block;
+    flex-direction: column;
+}
+
+#columnaIzq h2{
+    text-align: center;
+}
+
+#columnaIzq p{
+    padding-left: 10px;
+}
+
+.skills h3{
+    margin-left: 10px;
+}
+
+#columnaDer{
+    padding: 18px;
+}
+
+/* Lineas separadoras de la columna de la derecha*/
+
+hr{
+    background-color: #0F172A;
+    height: 2px;
+    border: none;
+}
+
+
+/*
+Footeer 
+*/
+
+.containerFirma h3{
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.containerFirma p{
+    color: aliceblue;
+}
+
+.containerFirma a {
+    color: #38BDF8;
+}
+
+.containerFirma{
+    width: 100%;
+    padding: 20px;
+    margin: 0 auto;
+    color:#ffffff;
+    background-color: #0F172A;
+}
+
+footer{
+    margin: 0;
+    padding: 10px 0;
+    width: 100%;
+    text-align: center;
+    background-color: #080d18;
+    color: aliceblue;
+}
+
+footer p{
+    margin: 0;
+}
+
+
+
+
